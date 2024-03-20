@@ -1,0 +1,21 @@
+.character{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                url(../../../assets/images/jpg/characters.jpeg) center/cover no-repeat;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.character:hover{
+    padding: 6rem;
+}
+
+.planets{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                url(../../../assets/images/jpg/planets.jpg) center/cover no-repeat;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.planets:hover{
+    padding: 6rem 8rem;
+}

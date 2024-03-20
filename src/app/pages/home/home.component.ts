@@ -13,5 +13,6 @@ import { MainCardsComponent } from '../../components/main-cards/main-cards.compo
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  
 
 }
