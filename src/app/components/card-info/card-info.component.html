@@ -1,0 +1,23 @@
+<div>
+    <figure>
+        <img src={{image}} alt={{imgAlt}}>
+    </figure>
+
+    <div>
+        <p>Nome: {{name}}</p>
+        @if(isCharacter){
+            <p>Ki: {{ki}}</p>
+            <p>Raça: {{race}}</p>
+            <p>Gênero: {{gender}}</p>
+            <p>Afiliação: {{affiliation}}</p>
+        }
+
+        @if(!isCharacter){
+            @if(isDestroyed){
+                <p>Situação: Já Destruido</p>
+            } @else {
+                <p>Situação: Não Destruido</p>
+            }
+        }
+    </div>
+</div>

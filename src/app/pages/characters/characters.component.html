@@ -1,3 +1,12 @@
-<!-- @for (character of characters.items; track $index) {
-    <p>{{ character.name }}</p>
-} -->
+@for (character of characters.items; track $index) {
+    <app-card-info
+        [isCharacter]="true"
+        [name]="character.name"
+        [image]="character.image"
+        [ki]="character.ki"
+        [race]="character.race"
+        [gender]="character.gender"
+        [affiliation]="character.affiliation"
+        [imgAlt]="'imagem do personagem de Dragon Ball'"
+    ></app-card-info>
+}

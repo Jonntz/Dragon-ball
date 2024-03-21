@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Character } from '../../interfaces/characters/character.model';
 import { CharactersService } from '../../services/characters.service';
-import { AsyncPipe } from '@angular/common';
+import { CardInfoComponent } from '../../components/card-info/card-info.component';
 
 @Component({
   selector: 'app-characters',
   standalone: true,
-  imports: [AsyncPipe],
+  imports: [CardInfoComponent],
   templateUrl: './characters.component.html',
   styleUrl: './characters.component.scss'
 })
