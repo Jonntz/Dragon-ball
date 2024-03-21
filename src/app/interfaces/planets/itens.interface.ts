@@ -1,4 +1,4 @@
-import { Character } from "./planet.interface";
+import { Character } from "../characters/character.model";
 
 export interface Itens {
     id: number,

@@ -1,4 +1,4 @@
-import { Planets } from "./character.interface"
+import { Planet } from "../planets/planet.model"
 import { Transformations } from "./transformations.interface"
 
 export interface Itens {
@@ -12,6 +12,6 @@ export interface Itens {
     image: string,
     affiliation: string,
     deletedAt?: null
-    originPlanet: Planets
+    originPlanet: Planet
     transformations: Transformations[]
 }
