@@ -1,0 +1,15 @@
+.chars{
+    margin: 2% 2% 2%; 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .chars{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
