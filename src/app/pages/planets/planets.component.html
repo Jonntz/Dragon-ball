@@ -1,0 +1,12 @@
+<div class="plans">
+    @for (planet of planets.items; track $index) {
+        <app-card-info 
+            [isCharacter]="false" 
+            [name]="planet.name" 
+            [image]="planet.image"
+            [isDestroyed]="planet.isDestroyed"
+            [imgAlt]="'imagem do planeta de Dragon Ball'"
+        >
+        </app-card-info>
+    }
+</div>
