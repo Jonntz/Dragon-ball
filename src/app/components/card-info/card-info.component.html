@@ -1,4 +1,4 @@
-<div class="max-w-[100%] flex flex-col justify-center items-center p-4 bg-yellow-300 rounded-md shadow-xl shadow-gray-220 cursor-pointer">
+<div class="cardInfo max-w-[100%] flex flex-col justify-center items-center p-4 bg-yellow-300 rounded-md shadow-xl shadow-gray-220 cursor-pointer">
     @if (isCharacter) {
         <figure class="charImg">
             <img src={{image}} alt={{imgAlt}}>
@@ -21,9 +21,9 @@
 
         @if(!isCharacter){
             @if(isDestroyed){
-                <p>Situação: Já Destruido</p>
+                <p><b>Situação:</b> Já Destruido</p>
             } @else {
-                <p>Situação: Não Destruido</p>
+                <p><b>Situação:</b> Não Destruido</p>
             }
         }
     </div>

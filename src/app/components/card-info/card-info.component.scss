@@ -12,6 +12,7 @@
     width: 80%;
     height: auto;
     display: block;
+    object-fit: cover;
     margin: 0 auto;
     z-index: 1;
 }
@@ -26,6 +27,18 @@
 .planImg img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .charImg img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .cardInfo{
+        margin: 0 10px;
+    }
 }

@@ -1,3 +1,4 @@
+
 .character{
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
                 url(../../../assets/images/jpg/characters.jpeg) center/cover no-repeat;
@@ -18,4 +19,10 @@
 
 .planets:hover{
     padding: 6rem 8rem;
+}
+
+@media (max-width: 768px) {
+    .options{
+        flex-direction: column;
+    }    
 }
